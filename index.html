@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="sl">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>City Studio — Od vizije do izvedbe</title>
+<meta name="description" content="City Studio d.o.o. — 30+ let izkušenj v prostorskem, prometnem in urbanističnem načrtovanju. Ljubljana, Slovenija." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500;9..144,600&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<!-- ============ NAV ============ -->
+<header class="nav" id="nav">
+  <div class="nav__inner">
+    <a class="nav__logo" href="index.html">
+      <img src="https://static.wixstatic.com/media/77b742_710e0d0870e544c7b29e38cd14a472f0~mv2.png/v1/crop/x_0,y_0,w_499,h_249/fill/w_341,h_171,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/77b742_710e0d0870e544c7b29e38cd14a472f0~mv2.png" alt="Studio Habitat Design" class="logo-img" />
+    </a>
+    <nav class="nav__links" aria-label="Glavna navigacija">
+      <a href="index.html" class="is-active">Domov</a>
+      <a href="o-nas.html">O nas</a>
+      <a href="storitve.html">Storitve</a>
+      <a href="projekti.html">Projekti</a>
+      <a href="kontakt.html">Kontakt</a>
+    </nav>
+    <div class="nav__cta">
+      <a href="kontakt.html" class="btn btn--ghost btn--sm">Kontakt</a>
+    </div>
+    <button class="nav__burger" id="burger" aria-label="Meni">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- ============ HERO ============ -->
+<section class="hero">
+  <div class="hero__bg"></div>
+  <div class="container hero__inner">
+    <div class="hero__eyebrow reveal">
+      <span class="dot"></span>
+      <span>30+ let · Ljubljana · Slovenija</span>
+    </div>
+    <h1 class="hero__title reveal">
+      Od vizije<br/>
+      do <em>izvedbe.</em>
+    </h1>
+    <p class="hero__lede reveal">
+      Načrtujemo prostore, ceste in mesta, ki delujejo — za ljudi, ki v njih živijo.
+      30+ let izkušenj v prostorskem, prometnem in urbanističnem načrtovanju.
+    </p>
+    <div class="hero__actions reveal">
+      <a href="projekti.html" class="btn btn--primary">Poglejte projekte <span class="arrow">→</span></a>
+      <a href="kontakt.html" class="btn btn--ghost">Stopite v stik</a>
+    </div>
+    <div class="hero__scroll reveal">
+      <span>Scroll</span>
+      <div class="line"></div>
+    </div>
+  </div>
+  <div class="hero__photo" aria-hidden="true">
+    <img src="https://images.unsplash.com/photo-1480714378408-67cf0d13bc1b?w=1600&q=80" alt="" />
+  </div>
+</section>
+
+<!-- ============ TRUSTED BY ============ -->
+<section class="trusted">
+  <div class="container">
+    <p class="trusted__label">Zaupajo nam</p>
+    <div class="trusted__logos">
+      <span>Petrol</span>
+      <span>DRSI</span>
+      <span>Medvode</span>
+      <span>Nova Gorica</span>
+      <span>Domžale</span>
+      <span>Ankaran</span>
+      <span>Litija</span>
+      <span>Vrhnika</span>
+    </div>
+  </div>
+</section>
+
+<!-- ============ STATS (sticky-pin) ============ -->
+<section class="stats">
+  <div class="container">
+    <div class="stats__head">
+      <p class="eyebrow">Številke</p>
+      <h2 class="section-title">Tri desetletja.<br/>Sto projektov na leto.</h2>
+    </div>
+    <div class="stats__grid">
+      <div class="stat reveal">
+        <div class="stat__num" data-target="650">0</div>
+        <div class="stat__label">zaključenih projektov</div>
+      </div>
+      <div class="stat reveal">
+        <div class="stat__num" data-target="420">0</div>
+        <div class="stat__label">projektov nizkih gradenj</div>
+      </div>
+      <div class="stat reveal">
+        <div class="stat__num" data-target="85">0</div>
+        <div class="stat__label">projektov arhitekture</div>
+      </div>
+      <div class="stat reveal">
+        <div class="stat__num" data-target="32">0</div>
+        <div class="stat__label">let izkušenj</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SERVICES ============ -->
+<section class="services" id="storitve">
+  <div class="container">
+    <div class="services__head">
+      <p class="eyebrow">Kaj delamo</p>
+      <h2 class="section-title">Celostna projektna dokumentacija<br/><span class="muted">od zasnove do izvedbe.</span></h2>
+    </div>
+    <div class="services__grid">
+      <a href="storitve.html" class="service-card reveal">
+        <div class="service-card__num">01</div>
+        <h3>Projektiranje nizkih gradenj</h3>
+        <p>Ceste, kolesarske povezave, krožišča, mostovi in infrastruktura po vsej Sloveniji.</p>
+        <span class="service-card__arrow">→</span>
+      </a>
+      <a href="storitve.html" class="service-card reveal">
+        <div class="service-card__num">02</div>
+        <h3>Urbanizem</h3>
+        <p>Urbanistični načrti in občinski podrobni prostorski načrti (OPPN).</p>
+        <span class="service-card__arrow">→</span>
+      </a>
+      <a href="storitve.html" class="service-card reveal">
+        <div class="service-card__num">03</div>
+        <h3>Arhitektura</h3>
+        <p>Arhitekturni načrti stanovanjskih, poslovnih in javnih objektov.</p>
+        <span class="service-card__arrow">→</span>
+      </a>
+      <a href="storitve.html" class="service-card reveal">
+        <div class="service-card__num">04</div>
+        <h3>Prometna varnost</h3>
+        <p>Elaborati prometne varnosti, prometne študije in prometni modeli.</p>
+        <span class="service-card__arrow">→</span>
+      </a>
+      <a href="storitve.html" class="service-card reveal">
+        <div class="service-card__num">05</div>
+        <h3>Zaščita pred hrupom</h3>
+        <p>Protihrupne ograje in elaborati zaščite pred hrupom ob prometnicah.</p>
+        <span class="service-card__arrow">→</span>
+      </a>
+      <a href="storitve.html" class="service-card reveal">
+        <div class="service-card__num">06</div>
+        <h3>Prometno planiranje</h3>
+        <p>Celostne prometne strategije in načrti trajnostne mobilnosti.</p>
+        <span class="service-card__arrow">→</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FEATURED PROJECTS (horizontal scroll) ============ -->
+<section class="featured">
+  <div class="container">
+    <div class="featured__head">
+      <p class="eyebrow">Izpostavljeni projekti</p>
+      <h2 class="section-title">Izbrano delo.</h2>
+    </div>
+  </div>
+  <div class="featured__track" id="track">
+    <article class="project-card">
+      <div class="project-card__img"><img src="https://images.unsplash.com/photo-1597072689227-8882273e8f6a?w=900&q=80" alt="" /></div>
+      <div class="project-card__body">
+        <span class="project-card__tag">Nizke gradnje</span>
+        <h3>Celovita ureditev državne ceste Miren – Opatje selo</h3>
+        <p>Rekonstrukcija in razširitev državne ceste na primorskem.</p>
+      </div>
+    </article>
+    <article class="project-card">
+      <div class="project-card__img"><img src="https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=900&q=80" alt="" /></div>
+      <div class="project-card__body">
+        <span class="project-card__tag">Urbanizem</span>
+        <h3>OPPN stanovanjska soseska Prestranek</h3>
+        <p>Celostno prostorsko in prometno načrtovanje za ROS Prestranek.</p>
+      </div>
+    </article>
+    <article class="project-card">
+      <div class="project-card__img"><img src="https://images.unsplash.com/photo-1568438350562-2cae6d394ad0?w=900&q=80" alt="" /></div>
+      <div class="project-card__body">
+        <span class="project-card__tag">Krožišče</span>
+        <h3>Ureditev krožnega križišča TOMI, Portorož</h3>
+        <p>Krožno križišče na regionalni cesti v Portorožu.</p>
+      </div>
+    </article>
+    <article class="project-card">
+      <div class="project-card__img"><img src="https://images.unsplash.com/photo-1485965120184-e220f721d03e?w=900&q=80" alt="" /></div>
+      <div class="project-card__body">
+        <span class="project-card__tag">Kolesarska povezava</span>
+        <h3>Daljinska kolesarska povezava Radovljica – Lesce</h3>
+        <p>Ureditev daljinske kolesarske povezave na Gorenjskem.</p>
+      </div>
+    </article>
+    <article class="project-card">
+      <div class="project-card__img"><img src="https://images.unsplash.com/photo-1502920514313-52581002a659?w=900&q=80" alt="" /></div>
+      <div class="project-card__body">
+        <span class="project-card__tag">Arhitektura</span>
+        <h3>Prenova mestnega središča Maribor</h3>
+        <p>PZI in prometna študija za prenovo mestnega središča v Mariboru.</p>
+      </div>
+    </article>
+  </div>
+  <div class="container featured__more">
+    <a href="projekti.html" class="btn btn--ghost">Vseh 32 projektov <span class="arrow">→</span></a>
+  </div>
+</section>
+
+<!-- ============ TESTIMONIAL ============ -->
+<section class="testimonial">
+  <div class="container">
+    <div class="testimonial__inner reveal">
+      <span class="quote-mark">“</span>
+      <blockquote>
+        S podjetjem City Studio sodelujemo pri številnih projektih načrtovanja bencinskih servisov in prometne infrastrukture. Vedno izkazujejo proaktivnost, odgovornost in strokovnost.
+      </blockquote>
+      <div class="testimonial__who">
+        <div class="testimonial__avatar">P</div>
+        <div>
+          <div class="testimonial__name">Petrol d.d.</div>
+          <div class="testimonial__role">Naročnik · dolgoletno sodelovanje</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CTA ============ -->
+<section class="cta">
+  <div class="container cta__inner">
+    <h2 class="section-title section-title--light">Imate projekt?<br/>Pogovorimo se.</h2>
+    <p class="cta__sub">Pišite nam ali nas pokličite. Odgovor v 24 urah.</p>
+    <div class="cta__actions">
+      <a href="kontakt.html" class="btn btn--white">Pošljite sporočilo <span class="arrow">→</span></a>
+      <a href="tel:+386059043356" class="btn btn--ghost-light">+386 05 904 33 56</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer">
+  <div class="container footer__inner">
+    <div class="footer__col">
+      <a class="nav__logo" href="index.html">
+        <span class="logo-mark">◆</span>
+        <span class="logo-word">City Studio</span>
+      </a>
+      <p class="footer__tag">Prostorsko, prometno in urbanistično načrtovanje. Ljubljana, od 1993.</p>
+    </div>
+    <div class="footer__col">
+      <h4>Storitve</h4>
+      <a href="storitve.html">Nizke gradnje</a>
+      <a href="storitve.html">Urbanizem</a>
+      <a href="storitve.html">Arhitektura</a>
+      <a href="storitve.html">Prometna varnost</a>
+      <a href="storitve.html">Zaščita pred hrupom</a>
+    </div>
+    <div class="footer__col">
+      <h4>Podjetje</h4>
+      <a href="o-nas.html">O nas</a>
+      <a href="projekti.html">Projekti</a>
+      <a href="kontakt.html">Kontakt</a>
+    </div>
+    <div class="footer__col">
+      <h4>Kontakt</h4>
+      <a href="tel:+386059043356">+386 05 904 33 56</a>
+      <a href="mailto:info@city-studio.si">info@city-studio.si</a>
+      <p>Vurnikova ulica 2<br/>1000 Ljubljana<br/>Slovenija</p>
+    </div>
+  </div>
+  <div class="footer__bottom">
+    <div class="container">
+      <span>© 2026 City Studio d.o.o.</span>
+      <span><a href="https://www.linkedin.com/company/city-studio1/" target="_blank" rel="noopener">LinkedIn</a></span>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

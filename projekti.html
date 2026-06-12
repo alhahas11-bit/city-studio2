@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="sl">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Projekti — City Studio</title>
+<meta name="description" content="32+ let projektov po vsej Sloveniji. Ceste, krožišča, urbanizem, arhitektura." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500;9..144,600&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<header class="nav" id="nav">
+  <div class="nav__inner">
+    <a class="nav__logo" href="index.html"><span class="logo-mark">◆</span><span class="logo-word">City Studio</span></a>
+    <nav class="nav__links">
+      <a href="index.html">Domov</a>
+      <a href="o-nas.html">O nas</a>
+      <a href="storitve.html">Storitve</a>
+      <a href="projekti.html" class="is-active">Projekti</a>
+      <a href="kontakt.html">Kontakt</a>
+    </nav>
+    <div class="nav__cta">
+      <a href="kontakt.html" class="btn btn--ghost btn--sm">Kontakt</a>
+    </div>
+  </div>
+</header>
+
+<section class="page-head">
+  <div class="container page-head__inner">
+    <p class="eyebrow">Projekti</p>
+    <h1>650+ projektov.<br/>32 let.</h1>
+    <p>Od majhnih krožišč do celostnih urbanističnih načrtov. Izbor projektov, ki najbolje predstavljajo naše delo.</p>
+  </div>
+</section>
+
+<section class="projects-filter">
+  <div class="container">
+    <div class="projects-filter__row">
+      <span class="projects-filter__label">Filter:</span>
+      <button class="filter-btn is-active" data-filter="all">Vse</button>
+      <button class="filter-btn" data-filter="nizke">Nizke gradnje</button>
+      <button class="filter-btn" data-filter="urbanizem">Urbanizem</button>
+      <button class="filter-btn" data-filter="krozisca">Krožišča</button>
+      <button class="filter-btn" data-filter="kolesarske">Kolesarske</button>
+      <button class="filter-btn" data-filter="arhitektura">Arhitektura</button>
+    </div>
+  </div>
+</section>
+
+<section class="projects-list">
+  <div class="container">
+    <div class="projects-list__grid">
+
+      <div class="project-row reveal" data-cat="nizke">
+        <div class="project-row__num">01</div>
+        <div class="project-row__body">
+          <h3>Celovita ureditev državne ceste Miren – Opatje selo</h3>
+          <p>Miren — Opatje selo · Nizke gradnje</p>
+        </div>
+        <div class="project-row__arrow">→</div>
+      </div>
+
+      <div class="project-row reveal" data-cat="nizke">
+        <div class="project-row__num">02</div>
+        <div class="project-row__body">
+          <h3>Rekonstrukcija državne ceste Čepovan – Most na Soči</h3>
+          <p>Čepovan — Most na Soči · Nizke gradnje</p>
+        </div>
+        <div class="project-row__arrow">→</div>
+      </div>
+
+      <div class="project-row reveal" data-cat="nizke">
+        <div class="project-row__num">03</div>
+        <div class="project-row__body">
+          <h3>Rekonstrukcija regionalne ceste Kanal–Lig–Mišček–Neblo</h3>
+          <p>Kanal — Lig — Mišček — Neblo · Nizke gradnje</p>
+        </div>
+        <div class="project-row__arrow">→</div>
+      </div>
+
+      <div class="project-row reveal" data-cat="nizke">
+        <div class="project-row__num">04</div>
+        <div class="project-row__body">
+          <h3>PZI za rekonstrukcijo regionalne ceste Marof–Žiri</h3>
+          <p>Marof — Žiri · Nizke gradnje</p>
+        </div>
+        <div class="project-row__arrow">→</div>
+      </div>
+
+      <div class="project-row reveal" data-cat="kolesarske">
+        <div class="project-row__num">05</div>
+        <div class="project-row__body">
+          <h3>Ureditev državne kolesarske povezave Ajdovščina – Col</h3>
+          <p>Ajdovščina — Col · Kolesarske povezave</p>
+        </div>
+        <div class="project-row__arrow">→</div>
+      </div>
+
+      <div class="project-row reveal" data-cat="krozisca">
+        <div class="project-row__num">06</div>
+        <div class="project-row__body">
+          <h3>PZI rondo Vipava</h3>
+          <p>Vipava · Krožno križišče</p>
+        </div>
+        <div class="project-row__arrow">→</div>
+      </div>
+
+      <div class="project-row reveal" data-cat="nizke">
+        <div class="project-row__num">07</div>
+        <div class="project-row__body">
+          <h3>Rekonstrukcija državne ceste skozi Vipavo</h3>
+          <p>Vipava · Nizke gradnje</p>
+        </div>
+        <div class="project-row__arrow">→</div>
+      </div>
+
+      <div class="project-row reveal" data-cat="nizke">
+        <div class="project-row__num">08</div>
+        <div class="project-row__body">
+          <h3>Rekonstrukcija regionalne ceste, pločnikov in avtobusnih postajališč v Braniku</h3>
+          <p>Branik · Nizke gradnje</p>
+        </div>
+        <div class="project-row__arrow">→</div>
+      </div>
+
+      <div class="project-row reveal" data-cat="nizke">
+        <div class="project-row__num">09</div>
+        <div class="project-row__body">
+          <h3>Nadgradnja infrastrukture na železniški progi Jesenice – Bohinjska Bistrica</h3>
+          <p>Jesenice — Bohinjska Bistrica · Železnica</p>
+        </div>
+        <div class="project-row__arrow">→</div>
+      </div>
+
+      <div class="project-row reveal" data-cat="nizke">
+        <div class="project-row__num">10</div>
+        <div class="project-row__body">
+          <h3>Sanacija in rekonstrukcija regionalne ceste Podlom–Kranjski Rak–Luče</h3>
+          <p>Podlom — Kranjski Rak — Luče · Nizke gradnje</p>
+        </div>
+        <div class="project-row__arrow">→</div>
+      </div>
+
+      <div class="project-row reveal" data-cat="nizke">
+        <div class="project-row__num">11</div>
+        <div class="project-row__body">
+          <h3>Rekonstrukcija državnih cest v naselju Jugorje</h3>
+          <p>Jugorje · Nizke gradnje</p>
+        </div>
+        <div class="project-row__arrow">→</div>
+      </div>
+
+      <div class="project-row reveal" data-cat="krozisca">
+        <div class="project-row__num">12</div>
+        <div class="project-row__body">
+          <h3>Ureditev krožnega križišča IV. faze severne obvoznice Vrhnika</h3>
+          <p>Vrhnika · Krožno križišče</p>
+        </div>
+        <div class="project-row__arrow">→</div>
+      </div>
+
+      <div class="project-row reveal" data-cat="kolesarske">
+        <div class="project-row__num">13</div>
+        <div class="project-row__body">
+          <h3>Ureditev kolesarskih površin Most na Soči</h3>
+          <p>Most na Soči · Kolesarske povezave</p>
+        </div>
+        <div class="project-row__arrow">→</div>
+      </div>
+
+      <div class="project-row reveal" data-cat="nizke">
+        <div class="project-row__num">14</div>
+        <div class="project-row__body">
+          <h3>Rekonstrukcija parkirišča ob železniški postaji Bled Jezero</h3>
+          <p>Bled · Nizke gradnje</p>
+        </div>
+        <div class="project-row__arrow">→</div>
+      </div>
+
+      <div class="project-row reveal" data-cat="arhitektura">
+        <div class="project-row__num">15</div>
+        <div class="project-row__body">
+          <h3>PZI in prometna študija za prenovo mestnega središča v Mariboru</h3>
+          <p>Maribor · Arhitektura + promet</p>
+        </div>
+        <div class="project-row__arrow">→</div>
+      </div>
+
+      <div class="project-row reveal" data-cat="nizke">
+        <div class="project-row__num">16</div>
+        <div class="project-row__body">
+          <h3>Ureditev območja avtobusnega postajališča Zgornja Korena in 3-krakega križišča</h3>
+          <p>Zgornja Korena · Nizke gradnje</p>
+        </div>
+        <div class="project-row__arrow">→</div>
+      </div>
+
+      <div class="project-row reveal" data-cat="nizke">
+        <div class="project-row__num">17</div>
+        <div class="project-row__body">
+          <h3>Par avtobusnih postajališč Marof/Vurberg ob državni cesti R3-710</h3>
+          <p>Marof / Vurberg · Nizke gradnje</p>
+        </div>
+        <div class="project-row__arrow">→</div>
+      </div>
+
+      <div class="project-row reveal" data-cat="nizke">
+        <div class="project-row__num">18</div>
+        <div class="project-row__body">
+          <h3>Idejna rešitev povezovalne ceste med priključkom Padna in Lucijo</h3>
+          <p>Padna — Lucija · Nizke gradnje</p>
+        </div>
+        <div class="project-row__arrow">→</div>
+      </div>
+
+      <div class="project-row reveal" data-cat="krozisca">
+        <div class="project-row__num">19</div>
+        <div class="project-row__body">
+          <h3>Ureditev križišča na glavni cesti Spuhlja–Ormož</h3>
+          <p>Spuhlja — Ormož · Krožno križišče</p>
+        </div>
+        <div class="project-row__arrow">→</div>
+      </div>
+
+      <div class="project-row reveal" data-cat="nizke">
+        <div class="project-row__num">20</div>
+        <div class="project-row__body">
+          <h3>Povezovalna cesta Bajerji – Tojnice</h3>
+          <p>Bajerji — Tojnice · Nizke gradnje</p>
+        </div>
+        <div class="project-row__arrow">→</div>
+      </div>
+
+      <div class="project-row reveal" data-cat="nizke">
+        <div class="project-row__num">21</div>
+        <div class="project-row__body">
+          <h3>Ureditev prometnega režima v BTC</h3>
+          <p>BTC, Ljubljana · Nizke gradnje</p>
+        </div>
+        <div class="project-row__arrow">→</div>
+      </div>
+
+      <div class="project-row reveal" data-cat="nizke">
+        <div class="project-row__num">22</div>
+        <div class="project-row__body">
+          <h3>Ureditev regionalne ceste R3 635 s prebojem skozi železniški nadvoz</h3>
+          <p>Regionalna cesta · Nizke gradnje</p>
+        </div>
+        <div class="project-row__arrow">→</div>
+      </div>
+
+      <div class="project-row reveal" data-cat="nizke">
+        <div class="project-row__num">23</div>
+        <div class="project-row__body">
+          <h3>Ureditev regionalne ceste Stari trg pri Ložu – Loški potok</h3>
+          <p>Stari trg pri Ložu — Loški potok · Nizke gradnje</p>
+        </div>
+        <div class="project-row__arrow">→</div>
+      </div>
+
+      <div class="project-row reveal" data-cat="krozisca">
+        <div class="project-row__num">24</div>
+        <div class="project-row__body">
+          <h3>Ureditev križišča Melje v Mariboru</h3>
+          <p>Maribor (Melje) · Krožno križišče</p>
+        </div>
+        <div class="project-row__arrow">→</div>
+      </div>
+
+      <div class="project-row reveal" data-cat="kolesarske">
+        <div class="project-row__num">25</div>
+        <div class="project-row__body">
+          <h3>Daljinska kolesarska povezava Radovljica – Lesce</h3>
+          <p>Radovljica — Lesce · Kolesarske povezave</p>
+        </div>
+        <div class="project-row__arrow">→</div>
+      </div>
+
+      <div class="project-row reveal" data-cat="nizke">
+        <div class="project-row__num">26</div>
+        <div class="project-row__body">
+          <h3>Rekonstrukcija Letališke ceste med križiščem pri Emporiumu in Bratislavsko cesto</h3>
+          <p>Letališka cesta, Ljubljana · Nizke gradnje</p>
+        </div>
+        <div class="project-row__arrow">→</div>
+      </div>
+
+      <div class="project-row reveal" data-cat="krozisca">
+        <div class="project-row__num">27</div>
+        <div class="project-row__body">
+          <h3>Ureditev krožišča TOMI v Portorožu</h3>
+          <p>Portorož · Krožno križišče</p>
+        </div>
+        <div class="project-row__arrow">→</div>
+      </div>
+
+      <div class="project-row reveal" data-cat="krozisca">
+        <div class="project-row__num">28</div>
+        <div class="project-row__body">
+          <h3>Ureditev krožišča na regionalni cesti R3 635 – Boštjanova ulica v Lescah</h3>
+          <p>Lesce · Krožno križišče</p>
+        </div>
+        <div class="project-row__arrow">→</div>
+      </div>
+
+      <div class="project-row reveal" data-cat="nizke">
+        <div class="project-row__num">29</div>
+        <div class="project-row__body">
+          <h3>Rekonstrukcija Kajuhove ulice med križiščema z Letališko in Zaloško cesto</h3>
+          <p>Kajuhova ulica, Ljubljana · Nizke gradnje</p>
+        </div>
+        <div class="project-row__arrow">→</div>
+      </div>
+
+      <div class="project-row reveal" data-cat="nizke">
+        <div class="project-row__num">30</div>
+        <div class="project-row__body">
+          <h3>Ureditev državne ceste R2 409/0301 Vrhnika – Logatec</h3>
+          <p>Vrhnika — Logatec · Nizke gradnje</p>
+        </div>
+        <div class="project-row__arrow">→</div>
+      </div>
+
+      <div class="project-row reveal" data-cat="arhitektura">
+        <div class="project-row__num">31</div>
+        <div class="project-row__body">
+          <h3>Izgradnja mostu preko Ljubljanice in podaljška Njegoševe ceste</h3>
+          <p>Ljubljana · Arhitektura + infrastruktura</p>
+        </div>
+        <div class="project-row__arrow">→</div>
+      </div>
+
+      <div class="project-row reveal" data-cat="urbanizem">
+        <div class="project-row__num">32</div>
+        <div class="project-row__body">
+          <h3>OPPN stanovanjska soseska ROS Prestranek</h3>
+          <p>Prestranek · Urbanizem</p>
+        </div>
+        <div class="project-row__arrow">→</div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section class="cta">
+  <div class="container cta__inner">
+    <h2 class="section-title section-title--light">Imate projekt<br/>v mislih?</h2>
+    <p class="cta__sub">Pogovorimo se o vaših potrebah — brezplačna uvodna konzultacija.</p>
+    <div class="cta__actions">
+      <a href="kontakt.html" class="btn btn--white">Stopite v stik <span class="arrow">→</span></a>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container footer__inner">
+    <div class="footer__col">
+      <a class="nav__logo" href="index.html"><span class="logo-mark">◆</span><span class="logo-word">City Studio</span></a>
+      <p class="footer__tag">Prostorsko, prometno in urbanistično načrtovanje. Ljubljana, od 1993.</p>
+    </div>
+    <div class="footer__col">
+      <h4>Storitve</h4>
+      <a href="storitve.html">Nizke gradnje</a>
+      <a href="storitve.html">Urbanizem</a>
+      <a href="storitve.html">Arhitektura</a>
+      <a href="storitve.html">Prometna varnost</a>
+      <a href="storitve.html">Zaščita pred hrupom</a>
+    </div>
+    <div class="footer__col">
+      <h4>Podjetje</h4>
+      <a href="o-nas.html">O nas</a>
+      <a href="projekti.html">Projekti</a>
+      <a href="kontakt.html">Kontakt</a>
+    </div>
+    <div class="footer__col">
+      <h4>Kontakt</h4>
+      <a href="tel:+386059043356">+386 05 904 33 56</a>
+      <a href="mailto:info@city-studio.si">info@city-studio.si</a>
+      <p>Vurnikova ulica 2<br/>1000 Ljubljana<br/>Slovenija</p>
+    </div>
+  </div>
+  <div class="footer__bottom">
+    <div class="container">
+      <span>© 2026 City Studio d.o.o.</span>
+      <span><a href="https://www.linkedin.com/company/city-studio1/" target="_blank" rel="noopener">LinkedIn</a></span>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
